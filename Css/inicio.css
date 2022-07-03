@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document sin efectos Hover*/
+* {
+margin: 0;
+border: 0;
+padding: 0;}
+body {
+background-color:white;}
+
+#contenedor {
+width: 85%;
+margin: 30px auto;}
+
+header h1 {
+padding: 15px;
+text-align: center;
+color:#009;}
+#usuario{
+width: 10%;
+background-color:#FFC;
+	
+}
+#usuario img {
+width: 50%;
+padding: 10px;
+float: left;
+margin-left: 10%;
+margin-top: 10px;
+	
+}
+#primera{
+width: 80%;
+padding: 10px;
+background-color:#FFC;
+	
+}
+#segunda{
+width: 10%;
+padding: 30px;
+background-color:#FFC;
+	
+}
+#segunda img{
+width: 23%;
+	height: 30px;
+	float: left;
+	margin-left: 2%;
+	margin-right: 2%; 
+	margin-top: 1px;
+
+	
+}
+#divbaner,#baner{
+	width:100%;
+	height:220px; 
+}	
+nav{background-color:#8F8F8F;}
+nav a{padding:17px;
+	text-decoration:none;
+	color:black;
+	display:inline-block;
+	margin:0px 0px 0px 76px;}
+
+main {display: flex;}
+aside {
+width: 60%;
+padding: 20px;
+background-color:#FFC;}
+aside h1{
+	text-align:center;
+	margin: 20px 0px 0px 0px ;
+}	
+section {
+width: 40%;
+padding: 5px;
+background-color:#FFC;
+	}
+.conimagenes{
+	padding: 1em;
+	overflow: hidden;	
+}
+.conimagenes img{
+	filter: grayscale(100%);
+	transition: 1s;
+}
+.item{
+	margin: 1em ;
+	padding: 1em;
+	display: block;
+	float:left;
+	width: 30%;
+}
+.item img{
+	width: 120%;
+	height: 200px;
+	float: left;
+	margin-left: 2%;
+	margin-right: 2%; 
+	margin-top: 1px;
+}
+
+section h1 {
+	text-align:center;
+	color:#666;
+	padding:20px 0px 0px 0px ;
+	}	
+section img {
+	display:block;
+	margin:30px 0px 20px 10px ;
+	width: 90%;
+
+	padding:4px;
+	/*border: groove 1em blue;
+	border-radius:2em;*/}
+section p {
+	text-align: center;
+	}
+footer {
+padding: 20px;
+text-align: center;
+background-color:#E85C3E;}
+footer p {
+margin-bottom: 10px;
+color: white;}
+
+
+				

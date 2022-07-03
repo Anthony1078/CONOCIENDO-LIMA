@@ -1,0 +1,204 @@
+visibilityvisibility*{
+    box-sizing: border-box;
+    font-family: 'Calibri';
+}
+
+body{
+   
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.form__padre{
+    width: 500px;
+   background: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 30px;
+    margin: 20px 0px 10px 420px;
+}
+
+.iniciar__sesion{
+    color: #4064aa;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+    background: #ffa449;
+    border-radius: 50px;
+    padding: 7px;
+    transition: all .3s ease;
+}
+
+#usuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#usuario img{
+    padding: 60px 0px 20px 0px ;
+    
+}
+.titulo__crear-cuenta-iniciar-sesion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+
+.crear__cuenta{
+    color: #000000;
+    margin: 0;
+}
+
+
+.es__espac{
+    color: #427cff;
+    box-shadow: 0px 0px 20px rgba(0, 78, 255, 0.9);
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    background: #ffffff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.form__label{
+    display: block;
+    padding: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #000000;
+}
+
+.form__input{
+    width: 90%;
+    border: none;
+    border-radius: 2px;
+    border-left: 15px solid #d4d4d4;
+    border-right: 15px solid #d4d4d4;
+    height: 45px;
+    line-height: 45px;
+    outline: none;
+    font-size: 15px;
+    padding: 0px 12px;
+    transition: all .3s ease;
+}
+
+
+
+
+.form__input-error{
+    margin-bottom: 0;
+    margin-top: 10px;
+    color: #ff5252;
+    font-weight: bold;
+    display: none;
+}
+
+.form__grupo{
+    margin-bottom: 10px;
+}
+
+.form__terminos{
+    color: #ffffff;
+}
+
+.form__checkbox{
+    margin-right: 7px;
+}
+
+.form__mensaje{
+    background: #ff4b4b;
+    border-radius: 2px;
+    padding-left: 15px;
+    color: #000000;
+    height: 40px;
+    line-height: 40px;
+    margin: 20px 10px;
+    display: none;
+}
+
+.form__btn{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form__btn-crear{
+    width: 40%;
+    border: none;
+    height: 45px;
+    line-height: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 2px;
+    background: gray;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.form__btn-crear:hover{
+    background: #003e88;
+}
+
+.form__mensaje-exitoso{
+    color: #44e844;
+    font-weight: bold;
+    display: none;
+    font-size: 20px;
+}
+main {display: flex;}
+#sesion{
+    width: 100%;
+    display: block;
+}
+section{
+    width: 50%;
+    float:left;
+}
+aside{
+    width: 50%;
+    float:right;
+}
+
+
+/*---MOSTRANDO-VALIDACIONES-JS---*/
+
+.form__input-error-activo{
+    display: block;
+}
+
+.form__mensaje-activo{
+    display: block;
+}
+
+.form__mensaje-exitoso-activo{
+    display: block;
+}
+
+/*-----ESTILOS-DE-ERRORES-JS-----*/
+
+.form__grupo-incorrecto .form__input{
+    border-left: 15px solid #ff4f4f;
+    border-right: 15px solid #ff4f4f;
+}
+
+.form__grupo-incorrecto .form__label{
+    color: #e84444;
+}
+
+.form__grupo-correcto .form__input{
+    border-left: 15px solid #00c200;
+    border-right: 15px solid #00c200;
+}
+
+footer {
+padding: 20px;
+text-align: center;
+background-color:#E85C3E;}
+footer p {
+margin-bottom: 10px;
+color: white;}

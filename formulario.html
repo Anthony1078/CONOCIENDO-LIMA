@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.ico">
+    <link href="Css/formulario.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    
+    <form  class="form__padre" id="form__padre">
+      <div class="fyr">
+         <div class="hora">
+       	<center><p></p></center>
+         </div>
+      </div>
+       
+        
+        <div class="titulo__crear-cuenta-iniciar-sesion">
+            <h1 class="crear__cuenta">¡Bienvenido de nuevo!</h1>
+        </div>
+        
+        <div id="usuario">
+        	<img src="img/Inicio/USUARIO.png" >
+        </div>
+       
+         <h3 class="es__espac"></h3> 
+        
+        <div class="form__grupo" id="grupo__nombre">
+            <label   class="form__label" for="nombre">Nombres:</label>
+            <div class="form__grupo-input">
+                <input class="form__input" type="text" name="nombre" id="nombre" placeholder="Nombres">
+            </div>
+            <p class="form__input-error">El nombre solo puede contener letras y espacios.</p>
+        </div>
+        
+        <div class="form__grupo" id="grupo__apellido">
+            <label class="form__label" for="apellido">Apellidos:</label>
+            <div class="form__grupo-input">
+                <input class="form__input" type="text" name="apellido" id="apellido" placeholder="Apellidos">
+            </div>
+            <p class="form__input-error">El apellido solo puede contener letras y espacios.</p>
+        </div>
+       
+        <tr>
+        	<label class="form__label">Género:</label>
+        	<td>
+        		<input type="radio" name="rbgenero"  value="M">Masculino
+        		<input type="radio" name="rbgenero" value="F">Femenino
+        	</td><br>
+
+        </tr>
+        <br>
+
+        <div class="form__grupo" id="grupo__correo">
+            <label class="form__label" for="correo">Correo electrónico:</label>
+            <div class="form__grupo-input">
+                <input class="form__input" type="email" name="correo" id="correo" placeholder="correo@Hotmail.com">
+            </div>
+            <p class="form__input-error">El correo solo puede contener letras, numero, guion y guion bajo.</p>
+        </div>
+        
+        <div class="form__grupo" id="grupo__password">
+            <label class="form__label" for="password">Contraseña:</label>
+            <div class="form__grupo-input">
+                <input class="form__input" type="password" name="password" id="password">
+            </div>
+            <p class="form__input-error">La contraseña solo puede contener de 4 a 16 dígitos.</p>
+        </div>
+        
+        <div class="form__terminos">
+            <label class="form__label" for="terminos">
+                <input class="form__checkbox" type="checkbox" id="terminos" name="terminos">
+                Acepto los Términos y Condiciones
+            </label> 
+        </div>
+        
+        <div class="form__mensaje" id="form__mensaje">
+            <p> <b>Error:</b> Completa todos los campos correctamente.</p>
+        </div>
+        
+        <div class="form__btn" id="form__btn">
+            <button class="form__btn-crear" type="submit" >Crear cuenta</button>
+            <p class="form__mensaje-exitoso" id="form__mensaje-exitoso" >Te registraste correctamente.</p>
+        </div>   
+        
+        <main>
+        	<div id="sesion" >
+        	<section>
+        		<h3>&nbsp; &nbsp; &nbsp; &nbsp; ¿Ya tienes una cuenta?</h3>
+        	</section>
+        	<aside>
+        		<h3 >&nbsp; &nbsp; &nbsp; Inicia sesión aquí</h3>
+        	</aside>
+        </div>
+        	
+        </main>
+         <h3 class="es__espac"></h3>
+        
+        <footer>
+        <p>"Ciudad de los Reyes" - Derechos Reservados.</p>
+       </footer>
+    </form>
+    
+</body>
+</html>
+
+ <script src="Js/jquery-3.5.1.js"></script>
+ <script src="Js/formulario.js"></script>
+ <script src="Js/Forml2.js"></script>

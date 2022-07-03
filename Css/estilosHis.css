@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+margin: 0;
+border: 0;
+padding: 0;}
+body {
+background-color:white;}
+#contenedor {
+width: 85%;
+margin: 30px auto;}
+header h1 {
+padding: 15px;
+text-align: center;
+color:#009;}
+#usuario{
+width: 10%;
+background-color:#FFC;	
+}
+#usuario img {
+width: 50%;
+padding: 10px;
+float: left;
+margin-left: 10%;
+margin-top: 10px;	
+}
+#primera{
+width: 80%;
+padding: 10px;
+background-color:#FFC;	
+}
+#segunda{
+width: 10%;
+padding: 30px;
+background-color:#FFC;	
+}
+#segunda img{
+width: 23%;
+	height: 30px;
+	float: left;
+	margin-left: 2%;
+	margin-right: 2%; 
+	margin-top: 1px;	
+}
+#divbaner,#baner{
+	width:100%;
+	height:220px; 
+}
+header{background-color:white;}	
+nav{background-color:#8F8F8F;
+    width: 100%;
+display: flex:
+}
+nav a{padding:17px;
+	text-decoration:none;
+	color:black;
+	display:inline-block;
+	margin:0px 0px 0px 76px;}
+main {display: flex;}
+#Lima h1{
+	text-align: center;
+	padding: 20px;	
+}
+
+#banerHist{
+	width:100%;
+	height:260px; 
+}
+#Parrafo p{
+	padding: 12px;
+	
+}
+.clk{
+	width:90%; height:250px; float:left; 
+	margin-left:9%;
+	
+}
+.Video{
+	width: 50%;	
+	 height:300px; margin:1%;
+	float:left; overflow:hidden;
+}
+.Imagen{
+	width: 50%;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+.Video h1{
+	text-align:center;
+	padding: 30px 0px 0px 0px;
+}
+/*
+.Video video{
+	width:70.5%;
+	/*margin: 5px 0px 30px 84px; 
+	margin-top:5%; 
+}
+*/
+.vid{
+	width:90%; 
+	height:220px; 
+	margin-left:5%; 
+	margin-right: 5%;	
+	margin-top:5%; 
+}
+
+#Maps{
+	width:80%;	
+}
+#banerHist{
+	width:100%; 
+	height:auto; 
+	
+}
+
+#banerHist>img{
+	width:100%; 
+	height:280px; 
+	
+}
+footer {
+padding: 20px;
+text-align: center;
+background-color:#E85C3E;
+}
+footer p {
+margin-bottom: 10px;
+color: white;}
